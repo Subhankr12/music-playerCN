@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/logo2.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Music Studio</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <section class="site-logo">
+        <a href="#">
+          <img src="assets/logo2.png" alt="site-logo" />
+          <span>Music <br /><b>Studio</b></span>
+        </a>
+      </section>
+      <section class="header-elements">
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" id="search" placeholder="search" />
+          <i class="fas fa-microphone-alt"></i>
+        </div>
+        <div class="notification">
+          <i class="fas fa-bell"></i>
+        </div>
+        <div class="user-image">
+          <img src="assets/my-photo2.jpg" alt="user-photo" />
+        </div>
+      </section>
+    </header>
+    <main class="main-container">
+      <section class="thumbnail-carousel">
+        <div class="thumbnail">
+          <img
+            src="https://i.ytimg.com/vi/TduHf1tWDvI/maxresdefault.jpg"
+            alt="music genre thumbnail"
+          />
+        </div>
+
+        <div class="thumbnail">
+          <img
+            src="https://i.ytimg.com/vi/K55Ow7mCoho/maxresdefault.jpg"
+            alt="music genre thumbnail"
+          />
+        </div>
+
+        <div class="thumbnail">
+          <img
+            src="https://i.ytimg.com/vi/c8YIlU_30Kk/maxresdefault.jpg"
+            alt="music genre thumbnail"
+          />
+        </div>
+      </section>
+      <section class="latest-release">
+        <h2>Latest Release</h2>
+        <div class="song-list-items">
+          <ul>
+            <li>
+              <img
+                src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                alt="song-thumbnail"
+              /> 
+              <input type="radio" name="player" id="play-1"></input>
+              <label for="play-1"></label>
+              <div class="player-controls">
+                <div class="inner">
+                  <div class="song-details">
+                    <img
+                      src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                      alt="song-thumbnail"
+                    />
+                    <div class="song-info">
+                      <b>Onism</b>
+                      <p>John Lennon</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                  </div>
+                  <div class="controls">
+                    <div class="control-buttons">
+                      <i class="fas fa-random"></i>
+                      <i class="fas fa-step-backward"></i>
+                      <i class="far fa-pause-circle"></i>
+                      <i class="fas fa-step-forward"></i>
+                      <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                  <div class="other-options">
+                    <i class="fas fa-stream"></i>
+                    <i class="fas fa-expand-alt"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song-info">
+                <b>Onism</b>
+                <p>Aug 11, 2017</p>
+              </div>
+              <div class="song-options">
+                <input type="checkbox" id="song-play-1" />
+                <label for="song-play-1"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-play"></i
+                      ><a href="#play-now">Play Now</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-plus"></i
+                      ><a href="#queue">Add To Queue</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-star"></i
+                      ><a href="#favourite">Add To Favourites</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-info-circle"></i
+                      ><a href="#get-info">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>4:44</p>
+              </div>
+            </li>
+
+            <li>
+              <img
+                src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                alt="song-thumbnail"
+              /> 
+              <input type="radio" name="player" id="play-2"></input>
+              <label for="play-2"></label>
+              <div class="player-controls">
+                <div class="inner">
+                  <div class="song-details">
+                    <img
+                      src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                      alt="song-thumbnail"
+                    />
+                    <div class="song-info">
+                      <b>Onism</b>
+                      <p>John Lennon</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                  </div>
+                  <div class="controls">
+                    <div class="control-buttons">
+                      <i class="fas fa-random"></i>
+                      <i class="fas fa-step-backward"></i>
+                      <i class="far fa-pause-circle"></i>
+                      <i class="fas fa-step-forward"></i>
+                      <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                  <div class="other-options">
+                    <i class="fas fa-stream"></i>
+                    <i class="fas fa-expand-alt"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song-info">
+                <b>Onism</b>
+                <p>Aug 11, 2017</p>
+              </div>
+              <div class="song-options">
+                <input type="checkbox" id="song-play-2" />
+                <label for="song-play-2"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-play"></i
+                      ><a href="#play-now">Play Now</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-plus"></i
+                      ><a href="#queue">Add To Queue</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-star"></i
+                      ><a href="#favourite">Add To Favourites</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-info-circle"></i
+                      ><a href="#get-info">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>4:44</p>
+              </div>
+            </li>
+
+            <li>
+              <img
+                src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                alt="song-thumbnail"
+              /> 
+              <input type="radio" name="player" id="play-3"></input>
+              <label for="play-3"></label> 
+              <div class="player-controls">
+                <div class="inner">
+                  <div class="song-details">
+                    <img
+                      src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                      alt="song-thumbnail"
+                    />
+                    <div class="song-info">
+                      <b>Onism</b>
+                      <p>John Lennon</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                  </div>
+                  <div class="controls">
+                    <div class="control-buttons">
+                      <i class="fas fa-random"></i>
+                      <i class="fas fa-step-backward"></i>
+                      <i class="far fa-pause-circle"></i>
+                      <i class="fas fa-step-forward"></i>
+                      <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                  <div class="other-options">
+                    <i class="fas fa-stream"></i>
+                    <i class="fas fa-expand-alt"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song-info">
+                <b>Onism</b>
+                <p>Aug 11, 2017</p>
+              </div>
+              <div class="song-options">
+                <input type="checkbox" id="song-play-3" />
+                <label for="song-play-3"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-play"></i
+                      ><a href="#play-now">Play Now</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-plus"></i
+                      ><a href="#queue">Add To Queue</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-star"></i
+                      ><a href="#favourite">Add To Favourites</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-info-circle"></i
+                      ><a href="#get-info">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>4:44</p>
+              </div>
+            </li>
+
+            <li>
+              <img
+                src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                alt="song-thumbnail"
+              /> 
+              <input type="radio" name="player" id="play-4"></input>
+              <label for="play-4"></label>
+              <div class="player-controls">
+                <div class="inner">
+                  <div class="song-details">
+                    <img
+                      src="https://grayarea.org/wp-content/uploads/2019/03/photay.jpg"
+                      alt="song-thumbnail"
+                    />
+                    <div class="song-info">
+                      <b>Onism</b>
+                      <p>John Lennon</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                  </div>
+                  <div class="controls">
+                    <div class="control-buttons">
+                      <i class="fas fa-random"></i>
+                      <i class="fas fa-step-backward"></i>
+                      <i class="far fa-pause-circle"></i>
+                      <i class="fas fa-step-forward"></i>
+                      <i class="fas fa-redo-alt"></i>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                  <div class="other-options">
+                    <i class="fas fa-stream"></i>
+                    <i class="fas fa-expand-alt"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="song-info">
+                <b>Onism</b>
+                <p>Aug 11, 2017</p>
+              </div>
+              <div class="song-options">
+                <input type="checkbox" id="song-play-4" />
+                <label for="song-play-4"
+                  ><i class="fas fa-ellipsis-h"></i
+                ></label>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-play"></i
+                      ><a href="#play-now">Play Now</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-plus"></i
+                      ><a href="#queue">Add To Queue</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-star"></i
+                      ><a href="#favourite">Add To Favourites</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-info-circle"></i
+                      ><a href="#get-info">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>4:44</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="popular-artists">
+        <h2>Popular Artists</h2>
+        <div class="icon-list">
+          <ul>
+            <li>
+              <img src="https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/04/13/d184143e-5ce2-11e9-bbcc-84176f6dd1e7_image_hires_102022.JPG?itok=w-eiG2qs&v=1555122028" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Ed Sheeran</h3>
+            </li>
+            <li>
+              <img src="https://www.spectatornews.com/wp-content/uploads/2020/04/WEB_1DReunion_Submitted-900x506.jpg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">One Direction</h3>
+            </li>
+            <li>
+              <img src="https://i.ytimg.com/vi/Yo1AZl1S2gc/maxresdefault.jpg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Imagine Dragons</h3>
+            </li>
+            <li>
+              <img src="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:682738?quality=0.8&format=jpg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Camila Cabello</h3>
+            </li>
+            <li>
+              <img src="https://media1.popsugar-assets.com/files/thumbor/xTdEOR_fM75bGS5OYzkq8xhDDPY/733x204:2802x2273/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/09/04/019/n/1922398/7c2241aa5d7048792c0e23.11693945_/i/Shawn-Mendes.jpg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Shawn Mendes</h3>
+            </li>
+            <li>
+              <img src="https://static.billboard.com/files/media/taylor-swift-press-wim-2019-cr-Valheria-Roche-billboard-1548-1024x677.jpg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Taylor Swift</h3>
+            </li>
+            <li>
+              <img src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Sia/Sia_16_9_1578384875.jpg?itok=09s7Jxjg" alt="artist-photo">
+              <a href="playlist.html"></a>
+              <h3 class="artist-name">Sia</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="stations">
+        <div class="collection-logo">
+          <img src="assets/stations.png" alt="collection-logo">
+        </div>
+        <div class="icon-list station-list">
+          <ul>
+            <li>
+              <img src="https://www.wboi.org/sites/wbni/files/styles/medium/public/201602/LOVE.jpg" alt="artist-photo">
+              <h4>Love</h4>
+            </li>
+            <li>
+              <img src="https://media.radiomirchi.com/onlinestation/banners/EnglishRetro874.jpg" alt="artist-photo">
+              <h4>Retro</h4>
+            </li>
+            <li>
+              <img src="https://i.ytimg.com/vi/gmv54pfxk0Q/maxresdefault.jpg" alt="artist-photo">
+              <h4>Chill</h4>
+            </li>
+            <li>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwwZbvAIC0_YS2cTxGKpWRJc1w2VruGJyXVO8fweHbqucLrhJ8&usqp=CAU" alt="artist-photo">
+              <h4>Workout</h4>
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/The_Rock_Logo.png" alt="artist-photo">
+              <h4>Rock</h4>
+            </li>
+            <li>
+              <img src="https://i.iheart.com/v3/re/new_assets/5ea30c215fb4ff5186c1a6e1" alt="artist-photo">
+              <h4>Pop</h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="genres">
+        <div class="icon-list station-list">
+          <ul>
+            <li><img src="https://www.northamptonapl.org/sites/default/files/styles/large/public/content/events/dance_party.jpg?itok=dl1XCS7U" alt="genre-image"><h4>Party</h4></li>
+            <li><img src="https://www.parsatv.com/index_files/channels/edm.jpg" alt="genre-image"><h4>Electronic</h4></li>
+            <li><img src="https://www.cars24.com/blog/wp-content/uploads/2018/07/roadtrip1.jpg" alt="genre-image"><h4>Road Trip</h4></li>
+          </ul>
+        </div>
+      </section>
+      <section class="latest-english">
+        <h2>Latest English</h2>
+        <div class="icon-list">
+          <ul>
+            <li>
+              <img src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img  src="https://upload.wikimedia.org/wikipedia/en/2/2d/Adele_-_Someone_Like_You.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://consequenceofsound.net/wp-content/uploads/2016/03/sia-cheap-thrills-video-watch-maddie.png?w=807" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="latest-english">
+        <h2>Latest Hindi</h2>
+        <div class="icon-list">
+          <ul>
+            <li>
+              <img src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img  src="https://upload.wikimedia.org/wikipedia/en/2/2d/Adele_-_Someone_Like_You.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://consequenceofsound.net/wp-content/uploads/2016/03/sia-cheap-thrills-video-watch-maddie.png?w=807" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+            <li>
+              <img src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg" alt="artist-photo">
+              <h3 class="artist-name">Onism</h3>
+              <p class="date">AUG 11, 2017</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <aside class="song-list">
+      <div class="song-list-heading">
+        <h1>QUEUE</h1>
+        <span>Queue<i class="fas fa-chevron-down"></i></span>
+      </div>
+      <div class="song-list-items">
+        <ol>
+          <li>
+            <img
+              src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://images.shazam.com/coverart/t308854502-b1461084079_s400.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://images.shazam.com/coverart/t308854502-b1461084079_s400.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://images.shazam.com/coverart/t308854502-b1461084079_s400.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://images.shazam.com/coverart/t308854502-b1461084079_s400.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/579/Mirage-English-2018-20180124164745-500x500.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://artbridge.fr/sites/ab/files/styles/projet_teaser/public/field_image_main__projet/rosie_lowe_worry_bout_us.png?itok=JAki3mlj"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://i.ytimg.com/vi/s9g7KVEZEGk/maxresdefault.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Worry Bout Us</b>
+              <p>Rosie Lowe</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://media.pitchfork.com/photos/5929b5cac0084474cd0c24a3/1:1/w_600/17cc3eca.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>New Skin</b>
+              <p>Flume</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+          <li>
+            <img
+              src="https://images.shazam.com/coverart/t308854502-b1461084079_s400.jpg"
+              alt="song-thumbnail"
+            />
+            <div class="song-info">
+              <b>Mirage</b>
+              <p>Else</p>
+            </div>
+            <i class="far fa-heart"></i>
+          </li>
+        </ol>
+      </div>
+    </aside>
+  </body>
+</html>
