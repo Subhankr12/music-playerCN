@@ -105,12 +105,14 @@ h6 {
 }
 .thumbnail-carousel {
   display: flex;
+  flex-wrap: wrap;
 }
 .thumbnail-carousel .thumbnail {
   margin: 0 0.3rem;
 }
 .thumbnail-carousel .thumbnail img {
-  width: 100%;
+  width: 21rem;
+  height: 12rem;
   transition: ease 0.5s;
 }
 .thumbnail-carousel .thumbnail img:hover {
@@ -289,6 +291,7 @@ h6 {
   position: absolute;
   right: 60%;
   padding: 0;
+  z-index: 1;
 }
 .song-options input + label + .dropdown-menu > ul > li:not(:last-child) {
   border-bottom: 1px grey solid;
@@ -315,6 +318,7 @@ h6 {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .icon-list > ul > li > img {
   height: 8rem;
@@ -553,4 +557,18 @@ h6 {
 .song-strip .song-list-items > ol > li > i:nth-child(2n) {
   flex-grow: 0;
   margin: 0 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .thumbnail-carousel .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .latest-release .song-info {
+    margin-right: 2rem;
+  }
+  .song-list {
+    position: relative;
+    width: 100%;
+  }
 }
