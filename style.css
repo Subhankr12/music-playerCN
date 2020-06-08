@@ -277,7 +277,6 @@ h6 {
 .song-options label {
   cursor: pointer;
 }
-
 .song-options input + label + .dropdown-menu {
   display: none;
   position: relative;

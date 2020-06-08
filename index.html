@@ -540,7 +540,20 @@
     <aside class="song-list">
       <div class="song-list-heading">
         <h1>QUEUE</h1>
-        <span>Queue<i class="fas fa-chevron-down"></i></span>
+        <span class="song-options">
+          <input type="checkbox" id="queue">
+          <label for="queue">Queue<i class="fas fa-chevron-down"></i></label>
+          <div class="dropdown-menu">
+            <ul>
+              <li>
+                <a href="#playlist">Playlists</a>
+              </li>
+              <li>
+                <a href="#favourite-songs">Favourite Songs</a>
+              </li>
+            </ul>
+          </div>
+        </span>
       </div>
       <div class="song-list-items">
         <ol>
