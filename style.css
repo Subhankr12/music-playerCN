@@ -631,7 +631,7 @@ h6 {
   }
   .song-list-items > ul > li > input + label + .player-controls {
     height: 30vh;
-    width: 53vh;
+    width: 55vh;
   }
   .player-controls .song-details {
     margin: 0.5rem 0 0 1rem;
